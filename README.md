@@ -47,3 +47,17 @@ This JSON object is an example of a trip object. A trip may have multiple flight
         :cost => "144"
 }
 ```
+
+## Including in rails
+Add the follow code segment to your `Gemfile`.
+
+```
+gem 'airfairgrabber', git: 'https://github.com/msaun008/airfairgrabber'
+```
+
+## Testing
+To test the gem locally, use the `driver.rb` file in the root of this project.
+
+```
+$> ruby driver.rb
+```
